@@ -5,8 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // GitHub Pages deployment configuration
-  base: mode === "production" ? "/VocalnBox/" : "/",
+  // Custom domain deployment configuration
+  base: mode === "production" ? "/voca-speak-mail-d0560d3e-vocamail/" : "/",
   
   server: {
     host: "::",
