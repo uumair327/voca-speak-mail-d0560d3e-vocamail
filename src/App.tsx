@@ -46,7 +46,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/voca-speak-mail-d0560d3e-vocamail">
           <AppRoutes />
         </BrowserRouter>
       </TooltipProvider>
