@@ -127,7 +127,8 @@ tramp
 # ============================================
 # Package managers
 # ============================================
-package-lock.json
+# Keep package-lock.json for CI/CD consistency
+# package-lock.json
 yarn.lock
 pnpm-lock.yaml
 bun.lockb

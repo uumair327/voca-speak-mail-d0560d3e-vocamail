@@ -28,8 +28,7 @@
     "type-check": "tsc --noEmit",
     "audit": "npm audit --audit-level=moderate",
     "audit:fix": "npm audit fix",
-    "clean": "rm -rf dist node_modules",
-    "prepare": "npm run type-check"
+    "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
     "@capacitor/android": "^8.1.0",
